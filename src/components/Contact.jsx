@@ -91,6 +91,7 @@ const Contact = () => {
               Your Message
             </span>
             <textarea
+              required
               rows="7"
               name="message"
               value={form.message}
