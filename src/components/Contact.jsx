@@ -54,6 +54,7 @@ const Contact = () => {
           alert('Something went wrong. Please try again.');
         }
       );
+
   };
 
   return (
@@ -73,6 +74,7 @@ const Contact = () => {
           <label className="flex flex-col">
             <span className="text-timberWolf font-medium mb-4">Your Email</span>
             <input
+              required
               type="email"
               name="email"
               value={form.email}
