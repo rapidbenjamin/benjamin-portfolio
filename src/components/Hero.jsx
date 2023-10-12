@@ -37,12 +37,11 @@ const Hero = () => {
           <div>
             <h1
               className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`}>
-              welcome to{' '}
               <span
-                className="sm:text-battleGray sm:text-[90px] 
+                className="sm:text-black sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
                 font-extrabold uppercase">
-                Benjamin
+                welcome
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
@@ -82,13 +81,13 @@ const Hero = () => {
 
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
         <div>
-          <img
+          {/* <img
             className="absolute bottom-0  
             lg:ml-[50vw] md:ml-[50vw] xmd:ml-[50vw] 2xl:ml-[72vw]
             sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
             src={ben}
             alt="Benjamin"
-          />
+          /> */}
         </div>
       </section>
     </>

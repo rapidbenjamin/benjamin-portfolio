@@ -35,7 +35,7 @@ const Contact = () => {
           to_email: 'benjamintopsmile@gmail.com', //put your email here.
           message: form.message,
         },
-        'uGDSxegihYet1t8Hi' //paste your Public Key here. You'll get it in your profile section.
+        'UsbiGuPQemOmbHnXO' //paste your Public Key here. You'll get it in your profile section.
       )
       .then(
         () => {
@@ -72,7 +72,7 @@ const Contact = () => {
           onSubmit={handleSubmit}
           className="mt-10 flex flex-col gap-6 font-poppins">
           <label className="flex flex-col">
-            <span className="text-timberWolf font-medium mb-4">Your Email</span>
+            <span className="text-timberWolf text-white font-medium mb-4">Your Email</span>
             <input
               required
               type="email"
@@ -81,13 +81,13 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="Please leave your email."
               className="bg-eerieBlack py-4 px-6
-              placeholder:text-taupe
+              placeholder:text-white
               text-timberWolf rounded-lg outline-none
               border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-timberWolf font-medium mb-4">
+            <span className="text-timberWolf text-white font-medium mb-4">
               Your Message
             </span>
             <textarea
@@ -98,7 +98,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What do you want for me? Please feel free to ask me anything you want."
               className="bg-eerieBlack py-4 px-6
-              placeholder:text-taupe
+              placeholder:text-white
               text-timberWolf rounded-lg outline-none
               border-none font-medium resize-none"
             />
@@ -107,11 +107,11 @@ const Contact = () => {
           <button
             type="submit"
             className="live-demo flex justify-center sm:gap-4 
-            gap-3 sm:text-[20px] text-[16px] text-timberWolf 
+            gap-3 sm:text-[20px] text-[16px] text-timberWolf text-white 
             font-bold font-beckman items-center py-5
             whitespace-nowrap sm:w-[130px] sm:h-[50px] 
             w-[100px] h-[45px] rounded-[10px] bg-night 
-            hover:bg-battleGray hover:text-eerieBlack 
+            hover:bg-white hover:text-eerieBlack 
             transition duration-[0.2s] ease-in-out"
             onMouseOver={() => {
               document

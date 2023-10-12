@@ -118,7 +118,7 @@ const ProjectCard = ({
 };
 
 const Projects = () => {
-  const [active, setActive] = useState('project-1');
+  const [active, setActive] = useState('3');
   const [projectArray, setProjectArray] = useState([]);
   useEffect(() => {
     projects.sort((a,b) => a.id - b.id)
